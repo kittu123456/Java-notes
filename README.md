@@ -29,7 +29,7 @@
 
 ### Step 6: Sorting using Comparator
 
-List<Student> studentList = new ArrayList<>();
+List<Student> studentList = new ArrayList<Student>();
 
 studentList.stream().sorted((s1, s2) -> s1.getMarks() - s2.getMarks()); 
 
