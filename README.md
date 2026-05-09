@@ -34,6 +34,6 @@ List<Student> studentList = new ArrayList<Student>();
 studentList.stream().sorted((s1, s2) -> s1.getMarks() - s2.getMarks()); 
 
 ### Step 7: Other Functional Interfaces
-Predicate → method: test() → returns boolean
-Consumer → method: accept() → performs action (no return)
-Function → method: apply() → takes input and returns output
+- Predicate → method: test() → returns boolean
+- Consumer → method: accept() → performs action (no return)
+- Function → method: apply() → takes input and returns output
